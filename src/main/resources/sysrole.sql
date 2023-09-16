@@ -19,5 +19,7 @@ insert into spr_sysrole_menu(menu_id,sysrole_id,include_sub_menu) values('9323b0
 /*SYSADMIN*/
 insert into spr_sysrole_menu(menu_id,sysrole_id,include_sub_menu) values('da2d086402b84cc69d548153d8f81469','0e1a23631cdb43c7ac8d3b3c537028dd',true);
 
-insert into SPR_USER_SYSROLE(sysrole_id, username) values('0e1a23631cdb43c7ac8d3b3c537028dd','forwarder1');
-insert into SPR_USER_SYSROLE(sysrole_id, username) values('7311c3fbcf384de49b841931cde0a864','shipper1');
+insert into SPR_USER_SYSROLE(sysrole_id, username) values('0e1a23631cdb43c7ac8d3b3c537028dd','sysadmin');
+insert into SPR_USER_SYSROLE(sysrole_id, username) values('7311c3fbcf384de49b841931cde0a864','admin');
+insert into SPR_USER_SYSROLE(sysrole_id, username) values('ff8080817fe92689017fe934e6030001','superadmin');
+insert into SPR_USER_SYSROLE(sysrole_id, username) values('ff8080817fe92689017fe93493670000','supersysadmin');
