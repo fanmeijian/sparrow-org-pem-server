@@ -38,6 +38,7 @@ public class DefaultWebSecurityConfig extends KeycloakWebSecurityConfigurerAdapt
 		}).oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
 
 		http.addFilterBefore(new CurrentUserFilter(), LogoutFilter.class);
+//		http.addFilterBefore(new EntityManagerFilter(), LogoutFilter.class);
 	}
 
 	@Autowired

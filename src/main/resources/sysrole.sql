@@ -13,7 +13,7 @@ INSERT INTO spr_sysrole (`id`,`created_by`,`created_date`,`modified_by`,`modifie
 /*SUPER_SYSADMIN*/
 insert into spr_sysrole_menu(menu_id,sysrole_id,include_sub_menu) values('9323b05e30b34ed2aea7d4d9de6a69df','ff8080817fe92689017fe93493670000',true);
 insert into spr_sysrole_menu(menu_id,sysrole_id,include_sub_menu) values('da2d086402b84cc69d548153d8f81469','ff8080817fe92689017fe93493670000',true);
-insert into spr_sysrole_menu(menu_id,sysrole_id,include_sub_menu) values('523129a909f340ce90b5816f2e67e14b','ff8080817fe92689017fe93493670000',true);
+insert into spr_sysrole_menu(menu_id,sysrole_id,include_sub_menu) values('245b2bc3bd6a485ca5c2ef43becc2fa7','ff8080817fe92689017fe93493670000',true);
 /*ADMIN*/
 insert into spr_sysrole_menu(menu_id,sysrole_id,include_sub_menu) values('9323b05e30b34ed2aea7d4d9de6a69df','7311c3fbcf384de49b841931cde0a864',true);
 /*SYSADMIN*/
