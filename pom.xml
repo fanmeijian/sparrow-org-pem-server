@@ -129,11 +129,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>cn.sparrow.permission</groupId>
-			<artifactId>
-				sparrow-permission-authorization-server
-			</artifactId>
-			<version>0.0.1</version>
+			<groupId>cn.sparrowmini</groupId>
+			<artifactId>sparrow-common</artifactId>
+			<version>0.1.0</version>
 		</dependency>
 	</dependencies>
 	<build>
