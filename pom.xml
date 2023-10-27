@@ -138,7 +138,11 @@
 			<artifactId>sparrow-keycloak-admin-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
+		<dependency>
+			<groupId>cn.sparrowmini</groupId>
+			<artifactId>sparrow-portal-service</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
