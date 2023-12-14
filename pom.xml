@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.8</version>
+		<groupId>cn.sparrowmini</groupId>
+		<artifactId>sparrow-parent</artifactId>
+		<version>0.3.0</version>
 		<relativePath />
 	</parent>
 	<groupId>cn.sparrowmini</groupId>
@@ -12,7 +12,7 @@
 	<packaging>jar</packaging>
 	<properties>
 		<java.version>11</java.version>
-		<version.org.keycloak>13.0.1</version.org.keycloak>
+		<version.org.keycloak>21.1.1</version.org.keycloak>
 		<hibernate.version>5.6.5.Final</hibernate.version>
 	</properties>
 	<dependencyManagement>
