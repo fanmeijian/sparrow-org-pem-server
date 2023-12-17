@@ -50,7 +50,6 @@
 		<dependency>
 			<groupId>cn.sparrowmini</groupId>
 			<artifactId>sparrow-common-api</artifactId>
-			<version>0.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -131,7 +130,6 @@
 		<dependency>
 			<groupId>cn.sparrowmini</groupId>
 			<artifactId>sparrow-common</artifactId>
-			<version>0.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>cn.sparrowmini</groupId>
