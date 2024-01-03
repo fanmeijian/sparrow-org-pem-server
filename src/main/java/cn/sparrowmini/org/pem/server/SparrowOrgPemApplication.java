@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EntityScan({"cn.sparrowmini.org","cn.sparrowmini.pem","cn.sparrowmini.common","cn.sparrowmini.portal","cn.sparrowmini.file"})
 @ComponentScan("cn.sparrowmini")
-@EnableJpaRepositories("cn.sparrowmini")
+@EnableJpaRepositories({"cn.sparrowmini","cn.sparrowmini.org"})
 @SpringBootApplication
 public class SparrowOrgPemApplication {
 
